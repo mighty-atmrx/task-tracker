@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tasks
+    username: tasks
+    password: tasks
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
